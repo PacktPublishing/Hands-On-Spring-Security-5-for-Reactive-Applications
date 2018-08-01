@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Hello Spring Security</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/>
+</head>
+<body>
+<div th:fragment="logout" class="logout" sec:authorize="isAuthenticated()">
+    Welcome <span sec:authentication="name"></span><br>
+    Assigned roles <span sec:authentication="principal.authorities"></span>
+    <div>
+        <form action="#" th:action="@{/logout}" method="post">
+            <input type="submit" value="Logout"/>
+        </form>
+    </div>
+</div>
+<h1>Client application non-secured page</h1>
+<br>
+<p>Click <a href="/secured/index" th:href="@{/secured/index}">here</a> to take you to client secured page.</p>
+</body>
+</html>

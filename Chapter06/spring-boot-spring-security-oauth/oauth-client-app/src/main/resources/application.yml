@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  thymeleaf:
+    cache: false
+
+security:
+  oauth2:
+    client:
+      movie-app-client:
+        client-id: oAuthClientAppID
+        client-secret: secret
+        user-authorization-uri: http://localhost:8082/oauth-server/oauth/authorize
+        access-token-uri: http://localhost:8082/oauth-server/oauth/token
+        scope: read, write, movie
+        pre-established-redirect-uri: http://localhost:8080/movie/index
+
+movie:
+  base-uri: http://localhost:8081/oauth-resource/movie

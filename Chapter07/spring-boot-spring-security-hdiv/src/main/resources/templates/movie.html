@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Security - Create Movie</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <div class="alert alert-success" th:if="${resultMovieBean != null}">
+            Name: <span th:text="${resultMovieBean.title}"></span>,
+            Type: <span th:text="${resultMovieBean.genre}"></span>
+        </div>
+        <h2>Create Movie</h2>
+        <form action="#" th:action="@{/movie}" th:object="${movieBean}" method="post">
+
+            <div th:if="${#fields.hasErrors('*')}" class="alert alert-error">
+                <strong th:each="err : ${#fields.errors('*')}" th:text="${err}">Input is incorrect</strong>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" th:field="*{title}" />
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="genre">Type</label>
+                <select th:field="*{genre}">
+                    <option th:value="Drama">Drama</option>
+                    <option th:value="Thriller">Thriller</option>
+                    <option th:value="Action">Action</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

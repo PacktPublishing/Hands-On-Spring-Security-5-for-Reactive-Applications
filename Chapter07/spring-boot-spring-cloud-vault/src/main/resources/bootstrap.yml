@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: movie-application
+spring.cloud.vault:
+    host: localhost # hostname of vault server
+    port: 8200  # vault server port
+    scheme: http # connection scheme http or https
+    uri: http://localhost:8200 # vault endpoint
+    connection-timeout: 10000 # connection timeout in milliseconds
+    read-timeout: 5000  # read timeout in milliseconds
+    config:
+        order: -10  # order for property source
+    token: ee60f275-7b16-48ea-0e74-dc48b4b3729c
+
+health.vault.enabled: false  # health endpoint enabled using spring actuator

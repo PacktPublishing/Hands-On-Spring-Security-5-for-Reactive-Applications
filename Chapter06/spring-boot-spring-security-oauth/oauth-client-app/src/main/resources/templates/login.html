@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login page</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/>
+</head>
+<body>
+<h1>Login page</h1>
+<br>
+<p>Credential -> user / password</p>
+<p>Credential -> admin / password</p>
+<br>
+<p th:if="${loginError}" class="error">Wrong username or password</p>
+<form th:action="@{/login}" method="post">
+    <label for="username">Username</label>:
+    <input type="text" id="username" name="username" autofocus="autofocus"/><br><br>
+    <label for="password">Password</label>:
+    <input type="password" id="password" name="password"/><br><br>
+    <input type="submit" value="Log In"/>
+</form>
+<p><a href="/index" th:href="@{/index}">Back to non-secured page</a></p>
+</body>
+</html>
