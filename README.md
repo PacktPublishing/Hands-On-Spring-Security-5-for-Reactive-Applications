@@ -46,9 +46,9 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/HandsOnSpringSecurity5forReactiveApplications_ColorImages.pdf).
 
 ### Related products
-* Spring Boot 2.0 Cookbook - Second Edition [[Packt]](https://www.packtpub.com/application-development/spring-boot-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787129825) [[Amazon]](https://www.amazon.com/dp/1-787-12982-9)
+* Spring Boot 2.0 Cookbook - Second Edition [[Packt]](https://www.packtpub.com/application-development/spring-boot-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787129825) [[Amazon]](https://www.amazon.com/dp/1787129829)
 
-* Mastering Spring Boot 2.0 [[Packt]](https://www.packtpub.com/application-development/mastering-spring-boot-20?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1-787-12756-7)
+* Mastering Spring Boot 2.0 [[Packt]](https://www.packtpub.com/application-development/mastering-spring-boot-20?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1787127567)
 
 ## Get to Know the Author
 **Tomcy John**
