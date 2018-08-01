@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Spring Security CAS Sample - Secured page</title>
+</head>
+<body>
+<h1>Spring Security CAS Sample - Secured page</h1>
+<br>
+<h3 th:text="${authusername} ? 'Hello authenticated user, ' + ${authusername} + '!' : 'Hello non-logged in user!'">Hello non-logged in user!</h3>
+</body>
+</html>
