@@ -1,4 +1,4 @@
-package com.packtpub.book.ch02.springsecurity.securedcasclient;
+package com.packtpub.book.ch04.springsecurity.securedcasclient;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

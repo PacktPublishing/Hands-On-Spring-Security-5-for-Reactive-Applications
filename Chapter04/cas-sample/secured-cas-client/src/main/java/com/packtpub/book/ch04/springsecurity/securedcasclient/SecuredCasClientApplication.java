@@ -1,4 +1,4 @@
-package com.packtpub.book.ch02.springsecurity.securedcasclient;
+package com.packtpub.book.ch04.springsecurity.securedcasclient;
 
 import org.jasig.cas.client.validation.Cas30ServiceTicketValidator;
 import org.jasig.cas.client.validation.TicketValidator;

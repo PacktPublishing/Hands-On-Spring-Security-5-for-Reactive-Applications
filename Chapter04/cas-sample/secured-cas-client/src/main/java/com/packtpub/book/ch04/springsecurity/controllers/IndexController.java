@@ -1,4 +1,4 @@
-package com.packtpub.book.ch02.springsecurity.controllers;
+package com.packtpub.book.ch04.springsecurity.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
