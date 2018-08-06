@@ -54,7 +54,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **Tomcy John**
 is an enterprise Java specialist with over 16 years of several domain expertise. He is currently a part of the Emirates IT Group as a Principal Architect. Before this, he's worked with Oracle Corporation and Ernst & Young. He acts as a chief mentor to facilitate incorporating new technologies. Outside of work, he works closely with young developers and engineers as a mentor and speaks on topics ranging from web and middleware all the way to various persistence stores. Tomcy has also the co-authored a book on big data, Data Lake for Enterprises, which is published by Packt.
 
-## Other books by the authors
+## Other books by the author
 [Data Lake for Enterprises](https://www.packtpub.com/big-data-and-business-intelligence/data-lake-enterprises?utm_source=github&utm_medium=repository&utm_campaign=9781787281349)
 
 ### Suggestions and Feedback
