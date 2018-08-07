@@ -9,7 +9,8 @@ import java.security.Principal;
  */
 public class JaasPrincipal implements Principal, Serializable {
 
-  private String username;
+  private static final long serialVersionUID = 1L;
+private String username;
 
   public JaasPrincipal(String username) {
     this.username = username;

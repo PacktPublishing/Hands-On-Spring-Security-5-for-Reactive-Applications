@@ -42,7 +42,7 @@ public class MovieHandler {
    */
   public Mono<ServerResponse> findByGenre(ServerRequest request) {
 
-    String genre = request.pathVariable("genre");
+    request.pathVariable("genre");
 
     // fetch all Movies from repository
     Flux<Movie> movies = reactiveMovieRepository.findAll();
