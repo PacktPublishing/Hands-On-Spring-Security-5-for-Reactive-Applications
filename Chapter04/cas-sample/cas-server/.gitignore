@@ -3,6 +3,7 @@
 *.ipr
 *.iws
 *.jar
+*.class
 *.sw?
 *~
 .#*
