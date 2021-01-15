@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Book for only $5 on PacktPub.com](https://www.packtpub.com/product/hands-on-spring-security-5-for-reactive-applications/9781788995979)
------
-*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/178899597X).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you. The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Hands-On Spring Security 5 for Reactive Applications
 
 <a href="https://www.packtpub.com/application-development/hands-spring-security-5-reactive-applications?utm_source=github&utm_medium=repository&utm_campaign=9781788995979 "><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B10167_cover.png" alt="Hands-On Spring Security 5 for Reactive Applications" height="256px" align="right"></a>
